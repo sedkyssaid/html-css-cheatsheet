@@ -5,35 +5,111 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>HTML and CSS Cheatsheet</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="styles.css" type="text/css">
     </head>
 
     <body>
         <header class="header">
             <nav class="nav">
-                <ul class="primary">
+                <ul class="nav__primary">
                     <li><a href="#intro" rel="next" referrerpolicy="no-referrer">Intro</a></li>
-                        <ul class="secondary secondary__intro">
-                            <li><a href="#access">How People Acccess the Web</a></li>
-                            <li><a href="#created">How Websites are Created</a></li>
-                            <li><a href="#works">How the Web Works</a></li>
-                        </ul>
+                    <ul class="nav__secondary">
+                        <li><a href="#intro-access">How People Acccess the Web</a></li>
+                        <li><a href="#intro-created">How Websites are Created</a></li>
+                        <li><a href="#intro-works">How the Web Works</a></li>
+                    </ul>
                     <li>
                         <a href="#html" rel="next" referrerpolicy="no-referrer">HTML</a>
-                        <ul class="secondary secondary__html">
-                            <li><a href="#elements">Elements</a></li>
-                            <li><a href="#structure">Structure</a></li>
-                            <li><a href="#text">Text</a></li>
-                            <li><a href="#lists">Lists</a></li>
-                            <li><a href="#links">Links</a></li>
-                            <li><a href="#images">Images</a></li>
-                            <li><a href="#tables">Tables</a></li>
-                            <li><a href="#semantic">Semantic</a></li>
+                        <ul class="nav__secondary">
+                            <li>
+                                <a href="#elements">Elements</a>
+                                <ul class="nav__tertiary">
+                                    <li><a href="#elements-breakdown">Element Breakdown</a></li>
+                                    <li><a href="#elements-attributes">Attributes</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#structure">Structure</a>
+                                <ul class="nav__tertiary">
+                                    <li><a href="#structure-body-head-title">Body, Head, Title</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#text">Text</a>
+                                <ul class="nav__tertiary">
+                                    <li><a href="#text-headings">Headings</a></li>
+                                    <li><a href="#texxt-paragraphs">Paragraphs</a></li>
+                                    <li><a href="#text-bold-italics">Bold & Italics</a></li>
+                                    <li><a href="#text-subscript-superscript">Superscript & Subscript</a></li>
+                                    <li><a href="#text-whitespace">Whitespace</a></li>
+                                    <li><a href="#text-line-break-hr">Line Breaks & Horizontal Rules</a></li>
+                                    <li><a href="#text-strong-emphasis">Strong & Emphasis</a></li>
+                                    <li><a href="#text-quotation">Quotations</a></li>
+                                    <li><a href="#text-abbr-accronyms">Abbreviation & Accronyms</a></li>
+                                    <li><a href="#text-citation-def">Citations & Definitions</a></li>
+                                    <li><a href="#text-author-details">Author details</a></li>
+                                    <li><a href="#text-content-changes">Changes to content</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#lists">Lists</a>
+                                <ul class="nav__tertiary">
+                                    <li><a href="#lists-numbered">Numbered lists</a></li>
+                                    <li><a href="#lists-bullet">Bullet lists</a></li>
+                                    <li><a href="#lists-definition">Definition lists</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#links">Links</a>
+                                <ul class="nav__tertiary">
+                                    <li><a href="#links-pages">Links between pages</a></li>
+                                    <li><a href="#links-other-sites">Linking to other sites</a></li>
+                                    <li><a href="#links-email">Email links</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#images">Images</a>
+                                <ul class="nav__tertiary"> 
+                                    <li><a href="#images-add">How to add images to pages</a></li>
+                                    <li><a href="#images-format">Choosing the right format</a></li>
+                                    <li><a href="#images-optimize">Optimizing for the web</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#tables">Tables</a>
+                                <ul class="nav__tertiary">
+                                    <li><a href="#tables-intro">Intro to Tables</a></li>
+                                    <li><a href="#table-create">Creating a Table</a></li>
+                                    <li><a href="#table-rows">Table Rows</a></li>
+                                    <li><a href="#table-data">Table Data</a></li>
+                                    <li><a href="#table-headings">Table Headings</a></li>
+                                    <li><a href="#table-borders">Table Borders</a></li>
+                                    <li><a href="#table-columns">Spanning Columns</a></li>
+                                    <li><a href="#table-rows">Spanning Rows</a></li>
+                                    <li><a href="#table-body">Table Body</a></li>
+                                    <li><a href="#table-head">Table Head</a></li>
+                                    <li><a href="#table-footer">Table Footer</a></li>
+                                    <li><a href="#table-styles">Styling with CSS</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#semantic">Semantic</a>
+                                <ul class="nav__tertiary">
+                                    <li><a href="#semantic-intro">Introduction to Semantic HTML</a></li>
+                                    <li><a href="#semantic-header-nav">Header and Nav</a></li>
+                                    <li><a href="#semantic-main-footer">Main and Footer</a></li>
+                                    <li><a href="#semantic-article-section">Article and Section</a></li>
+                                    <li><a href="#semantic-aside">The Aside Element</a></li>
+                                    <li><a href="#semantic-fig-figcation">Figure and Figcaption</a></li>
+                                    <li><a href="#semantic-audio-attributes">Audio and Attribures</a></li>
+                                    <li><a href="#semantic-video-embed">Video and Embed</a></li>
+                                </ul>
+                            </li>
                         </ul>
                     </li>
                     <li>
                         <a href="#css" rel="next" referrerpolicy="no-referrer">CSS</a>
-                        <ul class="secondary secondary__css">
+                        <ul class="nav__secondary">
                             <li><a href="#css-intro">Intro to CSS</a></li>
                             <li><a href="#color">Color</a></li>
                             <li><a href="#text">Text</a></li>
@@ -42,15 +118,15 @@
                 </ul>
             </nav>
         </header>
+        <div class="banner">
         <main>
-            <div class="banner">
                 <h1>HTML and CSS Cheatsheet</h1>
             </div>
             <section id="html">
-
+                <h2>HTML</h2>
             </section>
             <section id="css">
-
+                <h2>CSS</h2>
             </section>
         </main>
     </body>
