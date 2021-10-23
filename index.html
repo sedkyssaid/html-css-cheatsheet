@@ -171,7 +171,8 @@
                 <ol>
                     <li>Connect to the web via Internet Service Provider</li>
                     <li>Computer contacts a Domain Name System (DNS) using your Internet Prodvider address</li>
-                    <li>The DNS returns a unique number that will allow your browser to contact the web server of the website you requested. </li>
+                    <li>The DNS returns a unique number that will allow your browser to contact the web server of the
+                        website you requested. </li>
                     <li>The web server sends the page back to your browser.</li>
                 </ol>
             </div>
@@ -183,20 +184,27 @@
                     <div id="elements-breakdown">
                         <h5>Element Breakdown</h5>
                         <p>An element is made up an opening tag and a closing tag.</p>
-                        <p>An opening tag has a less-than sign followed by a character (depending on the element needed). After the character comes a greater-than sign. A closing tag starts with a less-than sign followed by a forward slash. Then the same character used in the first tag followed by a greater-than sign.</p>
+                        <p>An opening tag has a less-than sign followed by a character (depending on the element
+                            needed). After the character comes a greater-than sign. A closing tag starts with a
+                            less-than sign followed by a forward slash. Then the same character used in the first tag
+                            followed by a greater-than sign.</p>
                     </div>
                     <div id="elements-attributes">
                         <h5>Element Attributes</h5>
-                        <p>Different elements have attributes that add functionality to an element. The structure of the attribute is denoted by the attribute name followed by an <code>=</code> sign. Then, the value of the attribute is placed between quotation marks after the equal sign.</p>
+                        <p>Different elements have attributes that add functionality to an element. The structure of the
+                            attribute is denoted by the attribute name followed by an <code>=</code> sign. Then, the
+                            value of the attribute is placed between quotation marks after the equal sign.</p>
                         <p></p>
                     </div>
                 </div>
                 <div id="structure">
                     <h4>Structure</h4>
-                    <p>As stated before, elements make up the building blocks of an HTML document. The head, title and body elements are key to any HTML document.</p>
+                    <p>As stated before, elements make up the building blocks of an HTML document. The head, title and
+                        body elements are key to any HTML document.</p>
                     <div id="structure-body-head-title">
                         <h5>Head, Title, Body</h5>
-                        <p>The head goes before the body and contains the <code>title</code> element. It includes metadata - descriptive elements.</p>
+                        <p>The head goes before the body and contains the <code>title</code> element. It includes
+                            metadata - descriptive elements.</p>
                         <p>The title comes inside the head element. It is what shows up on the browser tab.</p>
                         <p>The body element contains all of the markup that is displayed in the browser.</p>
                     </div>
@@ -206,15 +214,89 @@
                     <p>These next sections provide extra meaning to the document.</p>
                     <div id="text-headings">
                         <h5>Headings</h5>
-                        <p>Headings are elements that denote a title of a <code>section</code> or a <code>div</code>. There are six levels of headings. The largest and most important is <code>h1</code> all the way down in size to an <code>h6</code>.</p>
+                        <p>Headings are elements that denote a title of a <code>section</code> or a <code>div</code>.
+                            There are six levels of headings. The largest and most important is <code>h1</code> all the
+                            way down in size to an <code>h6</code>.</p>
+                        <h1>This is an <code>h1</code> element.</h1>
+                        <h2>This is an <code>h2</code> element.</h2>
+                        <h3>This is an <code>h3</code> element.</h3>
+                        <h4>This is an <code>h4</code> element.</h4>
+                        <h5>This is an <code>h5</code> element.</h5>
+                        <h6>This is an <code>h6</code> element.</h6>
                     </div>
                     <div id="text-paragraphs">
                         <h5>Paragraphs</h5>
-                        <p>Paragraph elements are one or more sentences that form a sel-contained unit of discourse. Each paragraph is on a new line.</p>
+                        <p>Paragraph elements are one or more sentences that form a sel-contained unit of discourse.
+                            Each paragraph is on a new line.</p>
                         <p>This paragraph is surrounded by <code>p</code> tags!</p>
                     </div>
                     <div id="text-bold-italics">
                         <h5>Bold & Italics</h5>
+                        <p><b>This is bold.</b></p>
+                        <p><i>This is italics.</i></p>
+                    </div>
+                    <div id="text-subscript-superscript">
+                        <h5>Superscript & Subscript</h5>
+                        <p>This is a <sup>Superscript</sup>.</p>
+                        <p>This is a <sub>Subscript</sub>.</p>
+                    </div>
+                    <div id="text-whitespace">
+                        <h5>Whitespace</h5>
+                        <p>Whitescpace is a non-issue in HTML. This is known as <b>white space collapsing</b>.</p>
+                    </div>
+                    <div id="text-line-break-hr">
+                        <h5>Line Breaks & Horizonatal Rules</h5>
+                        <p>The <code>br</code> tag is put at the end of the element and breaks the element; it adds an
+                            line break to the document.</p><br>
+                        <p>The previous <code>p</code> element has a <code>br</code> tag at the end of the element.
+                            Notice the extrra spacing between the paragraphs.</p>
+                        <p>The <code>hr</code> element is called a horizontal rule. It adds a line between the elements.
+                            You can see the line after this paragraph.</p>
+                        <hr>
+                    </div>
+                    <div id="text-strong-emphasis">
+                        <h5>Strong & Emphasis</h5>
+                        <p>This is paragraph has a <strong>strong element</strong>.</p>
+                        <p>This paragraph has an <code>em</code> tag. It adds <em>italics</em> when used.</p>
+                    </div>
+                    <div id="text-quotation">
+                        <h5>Quotations</h5>
+                        <p>Two elements commonly used for marking up quotations.</p>
+                        <p>The
+                        <blockquote>"blockquote"</blockquote> is the first. This adds a break and indentation the the
+                        element.</p>
+                        <p>The <q>q</q> element is used for shorter quotes that sit within the paragraphs.</p>
+                    </div>
+                    <div id="text-abbr-accronyms">
+                        <h5>Abbreviation & Accronyms</h5>
+                        <p><abbr title="Doctor">Doc.</abbr> is an abbreviation for Doctor.</p>
+                        <p>
+                            <accronym title="National Areonautics and Space Administration">NASA</accronym> is an
+                            accronym.
+                        </p>
+                        <p>Abbreviations and accronyms adds tool tips to these elements.</p>
+                    </div>
+                    <div id="text-citation-def">
+                        <h5>Citations & Definitions</h5>
+                        <p>Citations are used when referencing a piece of work. using the <cite>cite</cite> element.
+                            This should not be used for a person's name.</p>
+                        <p>Definitions are used to explain new <dfn>terminology</dfn>. Some browsers put the
+                            <code>dfn</code> element in italics.</p>
+                    </div>
+                    <div id="text-author-details">
+                        <h5>Author Details</h5>
+                        <p>The <code>address</code> element is used to contain contact details.</p>
+                        <address>
+                            123 Smith Street
+                            City, Region
+                            Postcode
+                        </address>
+                    </div>
+                    <div id="text-content-changes">
+                        <h5>Changes to Content</h5>
+                        <p>This is a <del>deleted element</del>.</p>
+                        <p>This is a <ins>inserted element</ins>.</p>
+                        <p>An <s>S element</s> denotes something that is no longer accurate or relevant. Used in pricing.</p>
                     </div>
                 </div>
             </div>
