@@ -1,8 +1,8 @@
 function copyrightYear() {
     const today = new Date();
-    const year = today.getFullYear();
-    let yearToStr = year.toString();
+    const thisYear = today.getFullYear();
+    let thisYearToStr = thisYear.toString();
 
-    return document.getElementById("year").innerHTML = yearToStr;
+    return document.getElementById("year").innerHTML = thisYearToStr;
 
 }
