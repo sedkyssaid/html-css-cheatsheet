@@ -510,27 +510,35 @@
                     <div id="semantic-audio-attributes">
                         <h5>Audio and Attributes</h5>
                         <p>The <code>audio</code> element is used to embed audio content into a doucment. Like
-                            <code>video</code>, <code>audio</code> uses <code>src</code> to link the audio source.</p>
+                            <code>video</code>, <code>audio</code> uses <code>src</code> to link the audio source.
+                        </p>
                         <p>Attributes allow us to do many different things to our audio file. There are many attributes
                             for <code>audio</code> but today we’re going to be focusing on <code>controls</code> and
-                            <code>src</code>.</p>
+                            <code>src</code>.
+                        </p>
                         <ul>
                             <li><code>controls</code>: automatically displays the audio controls into the browser such
                                 as play and mute.</li>
-                                <li><code>src</code>: specifies the URL of the audio file.</li>
+                            <li><code>src</code>: specifies the URL of the audio file.</li>
                         </ul>
                     </div>
                     <div id="semantic-video-embed">
                         <h5>Video and Embed</h5>
-                        <p>By using a <code>video</code> element, we can add videos to our website. The element makes it clear that the page is attempting to display a video to the user.</p>
+                        <p>By using a <code>video</code> element, we can add videos to our website. The element makes it
+                            clear that the page is attempting to display a video to the user.</p>
                         <p>Some attributes can alter a video playback include:
-                            <ul>
-                                <li><code>controls</code>: When added in, a play/pause button will be added onto the video along with volume control and a fullscreen option.</li>
-                                <li><code>autoplay</code>: The attribute which results in a video automatically playing as soon as the page is loaded.</li>
-                                <li><code>loop</code>: This attribute results in the video continuously playing on repeat.</li>
-                            </ul>
+                        <ul>
+                            <li><code>controls</code>: When added in, a play/pause button will be added onto the video
+                                along with volume control and a fullscreen option.</li>
+                            <li><code>autoplay</code>: The attribute which results in a video automatically playing as
+                                soon as the page is loaded.</li>
+                            <li><code>loop</code>: This attribute results in the video continuously playing on repeat.
+                            </li>
+                        </ul>
                         </p>
-                        <p>The <code>embed</code> element which can embed any media content including videos, audio files, and gifs from an external source. This means that websites that have an embed button have some form of media content that can be added to other websites.</p>
+                        <p>The <code>embed</code> element which can embed any media content including videos, audio
+                            files, and gifs from an external source. This means that websites that have an embed button
+                            have some form of media content that can be added to other websites.</p>
                     </div>
                 </div>
         </section>
@@ -538,17 +546,85 @@
             <h2>CSS</h2>
             <div id="css-intro">
                 <h3>Intro to CSS</h3>
-                <p>CSS allows us to create rules to specify how the content of an element should appear on the page.</p>
+                <p>CSS allows us to create rules to specify how the content of an element should appear on the page. Different browsers interpret some CSS rules differently.</p>
                 <div id="css-how">
                     <h4>How CSS Works</h4>
-                    <p>The key to understanding how CSS works is to imagine that there is an ivisible box around every HTML element.</p>
-                    <p>Block level elements look like they start on a new line. Examples are <code>h1</code> to <code>h6</code>, <code>p</code> and <code>div</code> elements.</p>
-                    <p>Inline elements flow within the text and do not start on a new line. Examples include <code>b</code>, <code>i</code>, <code>img</code>, <code>em</code>, <code>span</code>.</p>
-                    <p>CSS allows you to create rules that control the way that each individual box(and the contents of that box) is presented.</p>
+                    <p>The key to understanding how CSS works is to imagine that there is an ivisible box around every
+                        HTML element.</p>
+                    <p>Block level elements look like they start on a new line. Examples are <code>h1</code> to
+                        <code>h6</code>, <code>p</code> and <code>div</code> elements.
+                    </p>
+                    <p>Inline elements flow within the text and do not start on a new line. Examples include
+                        <code>b</code>, <code>i</code>, <code>img</code>, <code>em</code>, <code>span</code>.
+                    </p>
+                    <p>CSS allows you to create rules that control the way that each individual box(and the contents of
+                        that box) is presented.</p>
                 </div>
                 <div id="css-rules-properties-values">
                     <h4>Rules, Properties and Values</h4>
+                    <p>CSS works by associate rules with HTML elements. You use the selector from HTML, such as the
+                        element tag, class or id. The declaration is put inside curly braces as a key-value pair. </p>
+                    <p>Whilst you can use styles internally in an HTML document, using an external CSS file is better
+                        practice.</p>
+                    <p>Some selectors include:</p>
+                    <table class="table table__selectors">
+                        <thead>
+                            <tr>
+                                <th>SELECTOR</th>
+                                <th>MEANING</th>
+                                <th>EXAMPLE</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="selector selector--fusca">UNIVERSAL SELECTOR</td>
+                                <td>Applies to all elements in the document</td>
+                                <td><code>* {}</code><br>Targets all elements on the page.</td>
+                            </tr>
+                            <tr>
+                                <td class="selector selector--fusca">TYPE SELECTOR</td>
+                                <td>Matches element names</td>
+                                <td><code>h1</code>, <code>h2</code>, <code>h3</code> <code>{}</code><br>Targets the <code>h1</code>, <code>h2</code>, <code>h3</code> elements</td>
+                            </tr>
+                            <tr>
+                                <td class="selector selector--fusca">CLASS SELECTOR</td>
+                                <td>Matches an element whose class attribute has a value that matches the one specified after the period (or full stop) symbol</td>
+                                <td><code>.note {}</code><br>Targets any element whose class attribute has a value of note<br><code>p.note {}</code><br>Targets only <code>p</code> elements whose class attribute has a value of note</td>
+                            </tr>
+                            <tr>
+                                <td class="selector selector--fusca">ID SELECTOR</td>
+                                <td>Matches an element whose id attribute has a value that matches the one specified after the poiund or hash symbol</td>
+                                <td><code>#introduction {}</code><br>Targets the eelement whose id attribute has a value of introduction</td>
+                            </tr>
+                            <tr>
+                                <td class="selector selector--fusca">CHILD SELECTOR</td>
+                                <td>Matches an element that is a direct child of another</td>
+                                <td><code>li>a {}</code><br>Targets any <code>a</code> elements that are children of an <code>li</code> element (but not other <code>a</code> elements in the page)</td>
+                            </tr>
+                            <tr>
+                                <td class="selector selector--fusca">DESCENDANT SELECTOR</td>
+                                <td>Matches an element that is a descendant of another specified element (not just a direct child of that element)</td>
+                                <td><code>p a {}</code><br>Targets any <code>a</code> elements that sit inside the <code>p</code> element, even if there are other elements nested between them</td>
+                            </tr>
+                            <tr>
+                                <td class="selector selector--fusca">ADJACENT SIBLING SELECTOR</td>
+                                <td>Matches an elementthat is the next sibling of another</td>
+                                <td><code>h1+p {}</code><br>Targets the first <code>p</code>element after any <code>h1</code> element (but not other <code>p</code>elements</td>
+                            </tr>
+                            <tr>
+                                <td class="selector selector--fusca">GENERAL SIBLING SELECTOR</td>
+                                <td>Matches an element that is a sibling of another, although it does not have to be the directly precending element</td>
+                                <td><code>h1-p {}</code><br>If you had two <code>p</code>elements that are siblings of an <code>h1</code> element, this rule would apply to both</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p>CSS rules cascade based on three factors. 1. If two or more rules that apply the same element, the last one will tak precendent; 2. If one selector is more specific that the others, the more specific rule will take precendence over more general ones.; 3. using the <code>!important</code> to consider it more important that other rules.</p>
+                    <p>Font-family or color properties on the <code>body</code> element are inherited properties and apply to most elements on the document. <code>background-color</code> or <code>border</code> properties are not inherited by child elements. You can force inheritence by using the <code>inherit rule.</code></p>
                 </div>
+            </div>
+            <div id="color">
+                <h3>Color</h3>
+
             </div>
         </section>
         </main>
