@@ -14,3 +14,6 @@
 --burnt-sienna: hsla(12, 76%, 61%, 1); */
 
 /* Global */
+* {
+    font-family: 'Montserrat', sans-serif;
+}
