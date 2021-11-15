@@ -136,621 +136,683 @@
                 </ul>
             </nav>
         </header>
-        <div class="banner">
-            <main>
+        <main>
+            <div class="banner">
                 <h1>HTML and CSS Cheatsheet</h1>
-        </div>
-        <section id="html">
-            <h2>HTML</h2>
-            <div id="intro">
-                <h3>HTML Intro</h3>
-                <P>HTML is a text document. It gives structure to a webpage.</P>
             </div>
-            <div id="intro-access">
-                <h4>How People Access the Web</h4>
-                <p>People use web browsers to access the web through a number of devices. The majority of those are on
-                    mobile phones or tablets. The lower percentage of access comes from desktop browsers on a laptop or
-                    pc.</p>
-                <p>When a user access a web page it makes a call to a web server. The webapge is hosted by web hosting
-                    company</p>
-                <p>Screen readers are programs that read out the contentsof a computer screen to a user. This is a
-                    feature available to users with disabilities.</p>
-            </div>
-            <div id="intro-created">
-                <h4>How Websites are Created</h4>
-                <p>All websites use HTML and CSS. </p>
-                <p>In addition to the HTML and CSS some websites uses images and Javascript to make the site more
-                    engaging and dynamic.</p>
-                <p>Larger sites may use a Content Management System or CMS. Even more complex sites such as e-commerce
-                    sites will use databases withy complext tables to make requests to and display the information on
-                    screen.</p>
-            </div>
-            <div id="intro-works">
-                <ol>
-                    <li>Connect to the web via Internet Service Provider</li>
-                    <li>Computer contacts a Domain Name System (DNS) using your Internet Prodvider address</li>
-                    <li>The DNS returns a unique number that will allow your browser to contact the web server of the
-                        website you requested. </li>
-                    <li>The web server sends the page back to your browser.</li>
-                </ol>
-            </div>
-            <div id="html">
-                <h3>HTML</h3>
-                <div id="elements">
-                    <h4>Elements</h4>
-                    <p>Elements are the building blocks of an HTML document.</p>
-                    <div id="elements-breakdown">
-                        <h5>Element Breakdown</h5>
-                        <p>An element is made up an opening tag and a closing tag.</p>
-                        <p>An opening tag has a less-than sign followed by a character (depending on the element
-                            needed). After the character comes a greater-than sign. A closing tag starts with a
-                            less-than sign followed by a forward slash. Then the same character used in the first tag
-                            followed by a greater-than sign.</p>
+            <section id="html">
+                <h2>HTML</h2>
+                <div id="intro">
+                    <h3>HTML Intro</h3>
+                    <P>HTML is a text document. It gives structure to a webpage.</P>
+                </div>
+                <div id="intro-access">
+                    <h4>How People Access the Web</h4>
+                    <p>People use web browsers to access the web through a number of devices. The majority of those are
+                        on
+                        mobile phones or tablets. The lower percentage of access comes from desktop browsers on a laptop
+                        or
+                        pc.</p>
+                    <p>When a user access a web page it makes a call to a web server. The webapge is hosted by web
+                        hosting
+                        company</p>
+                    <p>Screen readers are programs that read out the contentsof a computer screen to a user. This is a
+                        feature available to users with disabilities.</p>
+                </div>
+                <div id="intro-created">
+                    <h4>How Websites are Created</h4>
+                    <p>All websites use HTML and CSS. </p>
+                    <p>In addition to the HTML and CSS some websites uses images and Javascript to make the site more
+                        engaging and dynamic.</p>
+                    <p>Larger sites may use a Content Management System or CMS. Even more complex sites such as
+                        e-commerce
+                        sites will use databases withy complext tables to make requests to and display the information
+                        on
+                        screen.</p>
+                </div>
+                <div id="intro-works">
+                    <ol>
+                        <li>Connect to the web via Internet Service Provider</li>
+                        <li>Computer contacts a Domain Name System (DNS) using your Internet Prodvider address</li>
+                        <li>The DNS returns a unique number that will allow your browser to contact the web server of
+                            the
+                            website you requested. </li>
+                        <li>The web server sends the page back to your browser.</li>
+                    </ol>
+                </div>
+                <div id="html">
+                    <h3>HTML</h3>
+                    <div id="elements">
+                        <h4>Elements</h4>
+                        <p>Elements are the building blocks of an HTML document.</p>
+                        <div id="elements-breakdown">
+                            <h5>Element Breakdown</h5>
+                            <p>An element is made up an opening tag and a closing tag.</p>
+                            <p>An opening tag has a less-than sign followed by a character (depending on the element
+                                needed). After the character comes a greater-than sign. A closing tag starts with a
+                                less-than sign followed by a forward slash. Then the same character used in the first
+                                tag
+                                followed by a greater-than sign.</p>
+                        </div>
+                        <div id="elements-attributes">
+                            <h5>Element Attributes</h5>
+                            <p>Different elements have attributes that add functionality to an element. The structure of
+                                the
+                                attribute is denoted by the attribute name followed by an <code>=</code> sign. Then, the
+                                value of the attribute is placed between quotation marks after the equal sign.</p>
+                            <p></p>
+                        </div>
                     </div>
-                    <div id="elements-attributes">
-                        <h5>Element Attributes</h5>
-                        <p>Different elements have attributes that add functionality to an element. The structure of the
-                            attribute is denoted by the attribute name followed by an <code>=</code> sign. Then, the
-                            value of the attribute is placed between quotation marks after the equal sign.</p>
-                        <p></p>
+                    <div id="structure">
+                        <h4>Structure</h4>
+                        <p>As stated before, elements make up the building blocks of an HTML document. The head, title
+                            and
+                            body elements are key to any HTML document.</p>
+                        <div id="structure-body-head-title">
+                            <h5>Head, Title, Body</h5>
+                            <p>The head goes before the body and contains the <code>title</code> element. It includes
+                                metadata - descriptive elements.</p>
+                            <p>The title comes inside the head element. It is what shows up on the browser tab.</p>
+                            <p>The body element contains all of the markup that is displayed in the browser.</p>
+                        </div>
+                    </div>
+                    <div id="text">
+                        <h4>Text</h4>
+                        <p>These next sections provide extra meaning to the document.</p>
+                        <div id="text-headings">
+                            <h5>Headings</h5>
+                            <p>Headings are elements that denote a title of a <code>section</code> or a
+                                <code>div</code>.
+                                There are six levels of headings. The largest and most important is <code>h1</code> all
+                                the
+                                way down in size to an <code>h6</code>.</p>
+                            <h1>This is an <code>h1</code> element.</h1>
+                            <h2>This is an <code>h2</code> element.</h2>
+                            <h3>This is an <code>h3</code> element.</h3>
+                            <h4>This is an <code>h4</code> element.</h4>
+                            <h5>This is an <code>h5</code> element.</h5>
+                            <h6>This is an <code>h6</code> element.</h6>
+                        </div>
+                        <div id="text-paragraphs">
+                            <h5>Paragraphs</h5>
+                            <p>Paragraph elements are one or more sentences that form a sel-contained unit of discourse.
+                                Each paragraph is on a new line.</p>
+                            <p>This paragraph is surrounded by <code>p</code> tags!</p>
+                        </div>
+                        <div id="text-bold-italics">
+                            <h5>Bold & Italics</h5>
+                            <p><b>This is bold.</b></p>
+                            <p><i>This is italics.</i></p>
+                        </div>
+                        <div id="text-subscript-superscript">
+                            <h5>Superscript & Subscript</h5>
+                            <p>This is a <sup>Superscript</sup>.</p>
+                            <p>This is a <sub>Subscript</sub>.</p>
+                        </div>
+                        <div id="text-whitespace">
+                            <h5>Whitespace</h5>
+                            <p>Whitescpace is a non-issue in HTML. This is known as <b>white space collapsing</b>.</p>
+                        </div>
+                        <div id="text-line-break-hr">
+                            <h5>Line Breaks & Horizonatal Rules</h5>
+                            <p>The <code>br</code> tag is put at the end of the element and breaks the element; it adds
+                                an
+                                line break to the document.</p><br>
+                            <p>The previous <code>p</code> element has a <code>br</code> tag at the end of the element.
+                                Notice the extrra spacing between the paragraphs.</p>
+                            <p>The <code>hr</code> element is called a horizontal rule. It adds a line between the
+                                elements.
+                                You can see the line after this paragraph.</p>
+                            <hr>
+                        </div>
+                        <div id="text-strong-emphasis">
+                            <h5>Strong & Emphasis</h5>
+                            <p>This is paragraph has a <strong>strong element</strong>.</p>
+                            <p>This paragraph has an <code>em</code> tag. It adds <em>italics</em> when used.</p>
+                        </div>
+                        <div id="text-quotation">
+                            <h5>Quotations</h5>
+                            <p>Two elements commonly used for marking up quotations.</p>
+                            <p>The
+                            <blockquote>"blockquote"</blockquote> is the first. This adds a break and indentation the
+                            the
+                            element.</p>
+                            <p>The <q>q</q> element is used for shorter quotes that sit within the paragraphs.</p>
+                        </div>
+                        <div id="text-abbr-accronyms">
+                            <h5>Abbreviation & Accronyms</h5>
+                            <p><abbr title="Doctor">Doc.</abbr> is an abbreviation for Doctor.</p>
+                            <p>
+                                <accronym title="National Areonautics and Space Administration">NASA</accronym> is an
+                                accronym.
+                            </p>
+                            <p>Abbreviations and accronyms adds tool tips to these elements.</p>
+                        </div>
+                        <div id="text-citation-def">
+                            <h5>Citations & Definitions</h5>
+                            <p>Citations are used when referencing a piece of work. using the <cite>cite</cite> element.
+                                This should not be used for a person's name.</p>
+                            <p>Definitions are used to explain new <dfn>terminology</dfn>. Some browsers put the
+                                <code>dfn</code> element in italics.
+                            </p>
+                        </div>
+                        <div id="text-author-details">
+                            <h5>Author Details</h5>
+                            <p>The <code>address</code> element is used to contain contact details.</p>
+                            <address>
+                                123 Smith Street
+                                City, Region
+                                Postcode
+                            </address>
+                        </div>
+                        <div id="text-content-changes">
+                            <h5>Changes to Content</h5>
+                            <p>This is a <del>deleted element</del>.</p>
+                            <p>This is a <ins>inserted element</ins>.</p>
+                            <p>An <s>S element</s> denotes something that is no longer accurate or relevant. Used in
+                                pricing.</p>
+                        </div>
+                    </div>
+                    <div id="lists">
+                        <h4>Lists</h4>
+                        <p>There are three types of lists: ordered, unordered and definitions.</p>
+                        <p>Lists can be nested. An example is the nav for this page. It has three leves.</p>
+                        <div id="lists-numbered">
+                            <h5>Numbered Lists</h5>
+                            <ol>
+                                <li>First item</li>
+                                <li>Second item</li>
+                                <li>Third item</li>
+                            </ol>
+                        </div>
+                        <div id="lists-bullet">
+                            <h5>Bullet Lists</h5>
+                            <ul>
+                                <li>There</li>
+                                <li>are</li>
+                                <li>no</li>
+                                <li>numbers</li>
+                                <li>in this list</li>
+                            </ul>
+                        </div>
+                        <div id="lists-definition">
+                            <h5>Definition Lists</h5>
+                            <dl>
+                                <dt>Definition List</dt>
+                                <dd>This is a title for this definition list.</dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div id="links">
+                        <h4>Links</h4>
+                        <p>Links are the defining feature of the web because they allow you to move from one web page to
+                            another. There are internal and external links, as well as links to open an email client.
+                        </p>
+                        <p>Links are created using the <code>a</code> tag. The opening tag requires an <code>href</code>
+                            attribute.</p>
+                        <div id="links-pages">
+                            <h5>Links Between Pages</h5>
+                            <p>The <code>nav</code> on this page uses links on the same page.</p>
+                        </div>
+                        <div id="links-other-sites">
+                            <h5>Linking to Ohter Sites</h5>
+                            <p>The text between the tags is what you want to display as the <a
+                                    href="https://google.co.uk" target="_blank">link</a>.</p>
+                            <p>The link in the previous paragraph is an example of an external link that opens in a new
+                                browser tab.</p>
+                        </div>
+                        <div id="links-email">
+                            <h5>Email Links</h5>
+                            <a href="mailto:example@example.com">An Email link</a>
+                        </div>
+                    </div>
+                    <div id="images">
+                        <h4>Images</h4>
+                        <p>Images improve quality of a website. They should be relevant, convey information, the right
+                            mood,
+                            be instantly recognizable and fit the color palette.</p>
+                        <p>HTML 5 uses <code>figure</code> and <code>figcaption</code> elements to add captions and
+                            describe
+                            the image in the browser.</p>
+                        <div id="images-add">
+                            <h5>How to Add Images to a Pages</h5>
+                            <img src="https://place-hold.it/250x250/orange/black/grey.png&fontsize=16"
+                                alt="A placeholder image" title="Placeholder" height="250" width="250">
+                            <p>The above image has <code>src</code>, <code>alt</code>, <code>title</code>,
+                                <code>height</code>, <code>width</code> attributes.
+                            </p>
+                            <p>Images can be placed anywhere in the document; before, middle and after text.</p>
+                        </div>
+                        <div id="images-format">
+                            <h5>Choosing the Right Format</h5>
+                            <p>Images should be saved in the right format at the right size in pixels. These can be
+                                accomplished in Photoshop.</p>
+                            <p>Different formats are JPEG, PNG and SVG. JPEGs should be used whenever you have many
+                                different colors. GIFs should be used with fiew colors or large areas of the same color.
+                                Vecotors are scalable images that are next gen.</p>
+                        </div>
+                        <div id="images-optimize">
+                            <h5>Optimizing for the Web</h5>
+                            <p>Images should be saved at size that you will use on the website. If not they may appear
+                                low
+                                res or blurry.</p>
+                        </div>
+                    </div>
+                    <div id="tables">
+                        <h4>Tables</h4>
+                        <table style="border: 1px solid black;">
+                            <tr>
+                                <th scope="col"></th>
+                                <th scope="col" style="border-bottom: 1px solid black;">Heading 1</th>
+                                <th scope="col" style="border-bottom: 1px solid black;">Heading 2</th>
+                            </tr>
+                            <tr>
+                                <th scope="row" style="border-right: 1px solid black;">Row heading</th>
+                                <td style="border-right: 1px solid black;">Data for heading 1</td>
+                                <td>Data for heading 2</td>
+                            </tr>
+                        </table>
+                        <div id="tables-intro">
+                            <h5>Intro to Tables</h5>
+                            <p>Tables are good for structuring data in an organized way.</p>
+                        </div>
+                        <div id="table-create">
+                            <h5>Creating a Table</h5>
+                            <p>Table rows and columns are put in between the <code>table</code> tags.</p>
+                        </div>
+                        <div id="table-data">
+                            <h5>Table Data</h5>
+                            <p>Table data uses <code>td</code> tags. Table data are the cells in a table. They are
+                                placed
+                                inside the table rows.</p>
+                        </div>
+                        <div id="table-headings">
+                            <h5>Table Headings</h5>
+                            <p>Table headings use the <code>th</code> tag. They are place in a row by themselves.</p>
+                        </div>
+                        <div id="table-borders">
+                            <h5>Table Borders</h5>
+                            <p>Tables can have borders by adding inline styling or in the styles sheet. <b>Do not</b>
+                                use
+                                the <code>border</code>attribute as it is deprecated.</p>
+                        </div>
+                        <div id="table-columns">
+                            <h5>Spanning Columns</h5>
+                            <p>To allow for a <code>td</code> element to span multiple columns use the
+                                <code>colspan</code>
+                                attribute.</p>
+                        </div>
+                        <div id="table-rows">
+                            <h5>Spanning Rows</h5>
+                            <p>To allow for a <code>td</code> element to span multiple rows use the <code>rowspan</code>
+                                attribute.</p>
+                            <p>Table rows use <code>tr</code> tags.</p>
+                        </div>
+                        <div id="table-body">
+                            <h5>Table Body</h5>
+                            <p>The table body or <code>tbody</code> element encompasses the table rows and table data
+                                elements.</p>
+                        </div>
+                        <div id="table-head">
+                            <h5>Table Head</h5>
+                            <p>The table head or <code>thead</code> element is the top most row in the table element.
+                            </p>
+                        </div>
+                        <div id="table-footer">
+                            <h5>Table Footer</h5>
+                            <p>The <code>tfoot</code> element is the bottom of the table.</p>
+                        </div>
+                        <div id="table-styles">
+                            <h5>Styling with CSS</h5>
+                            <p>Tables, by default, are very bland. They have no borders, the font color is black, and
+                                the
+                                typeface is the same type
+                                used for other HTML elements.</p>
+                            <p>Just like an <code>HTML</code> document, we can add styles via the tag, class or id.</p>
+                        </div>
+                    </div>
+                    <div id="semantic">
+                        <h4>Semantic</h4>
+                        <div id="semantic-intro">
+                            <h5>Introduction to Semantic HTML</h5>
+                            <p>Non-semantic HTML is just using <code>div</code>s all throughout the document, which have
+                                not
+                                meaning to a browser and the accessability they support.</p>
+                            <p>By using semantic elements, we give meaning to the document. Doing so helps with
+                                accessability and SEO.</p>
+                        </div>
+                        <div id="semantic-header-nav">
+                            <h5>Header and Nav</h5>
+                            <p>The <code>header</code> contains your <code>h1</code> to <code>h6</code>, and the
+                                <code>nav</code> elements.
+                            </p>
+                            <p>The <code>nav</code> element is your menu for the document, Just look at the top of this
+                                page!</p>
+                        </div>
+                        <div id="semantic-main-footer">
+                            <h5>Main and Footer</h5>
+                            <p>The <code>main</code> tells the browser this is the focus of our content.</p>
+                            <p>The <code>footer</code> tells the browser this is the end of our document. The footer
+                                contains information such as:
+                            <ul>
+                                <li>Contact information</li>
+                                <li>Copyright information</li>
+                                <li>Terms of use</li>
+                                <li>Site Map</li>
+                                <li>Reference to top of page links</li>
+                            </ul>
+                            </p>
+                        </div>
+                        <div id="semantic-article-section">
+                            <h5>Article and Section</h5>
+                            <p><code>section</code> defines elements in a document, such as chapters, headings, or any
+                                other
+                                area of the document with the same theme.</p>
+                            <p>The <code>article</code> element holds content that makes sense on its own. It can hold
+                                content such as articles, blogs, comments, magazines, etc.</p>
+                        </div>
+                        <div id="semantic-aside">
+                            <h5>The Aside Element</h5>
+                            <p>The <code>aside</code> element is used to mark additional information that can enhance
+                                another element but isn't required in order to understand the main content.</p>
+                            <p>Some common uses of the element are:</p>
+                            <ul>
+                                <li>Bibliographies</li>
+                                <li>Endnotes</li>
+                                <li>Comments</li>
+                                <li>Pull quotes</li>
+                                <li>Editorial sidebars</li>
+                                <li>Additional information</li>
+                            </ul>
+                        </div>
+                        <div id="semantic-fig-figcaption">
+                            <h5>Figure and Figcaption</h5>
+                            <p>The <code>figure</code> and <code>figcaption</code> are used for an image or
+                                illustration.
+                            </p>
+                        </div>
+                        <div id="semantic-audio-attributes">
+                            <h5>Audio and Attributes</h5>
+                            <p>The <code>audio</code> element is used to embed audio content into a doucment. Like
+                                <code>video</code>, <code>audio</code> uses <code>src</code> to link the audio source.
+                            </p>
+                            <p>Attributes allow us to do many different things to our audio file. There are many
+                                attributes
+                                for <code>audio</code> but today we’re going to be focusing on <code>controls</code> and
+                                <code>src</code>.
+                            </p>
+                            <ul>
+                                <li><code>controls</code>: automatically displays the audio controls into the browser
+                                    such
+                                    as play and mute.</li>
+                                <li><code>src</code>: specifies the URL of the audio file.</li>
+                            </ul>
+                        </div>
+                        <div id="semantic-video-embed">
+                            <h5>Video and Embed</h5>
+                            <p>By using a <code>video</code> element, we can add videos to our website. The element
+                                makes it
+                                clear that the page is attempting to display a video to the user.</p>
+                            <p>Some attributes can alter a video playback include:
+                            <ul>
+                                <li><code>controls</code>: When added in, a play/pause button will be added onto the
+                                    video
+                                    along with volume control and a fullscreen option.</li>
+                                <li><code>autoplay</code>: The attribute which results in a video automatically playing
+                                    as
+                                    soon as the page is loaded.</li>
+                                <li><code>loop</code>: This attribute results in the video continuously playing on
+                                    repeat.
+                                </li>
+                            </ul>
+                            </p>
+                            <p>The <code>embed</code> element which can embed any media content including videos, audio
+                                files, and gifs from an external source. This means that websites that have an embed
+                                button
+                                have some form of media content that can be added to other websites.</p>
+                        </div>
+                    </div>
+            </section>
+            <section id="css">
+                <h2>CSS</h2>
+                <div id="css-intro">
+                    <h3>Intro to CSS</h3>
+                    <p>CSS allows us to create rules to specify how the content of an element should appear on the page.
+                        Different browsers interpret some CSS rules differently.</p>
+                    <div id="css-how">
+                        <h4>How CSS Works</h4>
+                        <p>The key to understanding how CSS works is to imagine that there is an ivisible box around
+                            every
+                            HTML element.</p>
+                        <p>Block level elements look like they start on a new line. Examples are <code>h1</code> to
+                            <code>h6</code>, <code>p</code> and <code>div</code> elements.
+                        </p>
+                        <p>Inline elements flow within the text and do not start on a new line. Examples include
+                            <code>b</code>, <code>i</code>, <code>img</code>, <code>em</code>, <code>span</code>.
+                        </p>
+                        <p>CSS allows you to create rules that control the way that each individual box(and the contents
+                            of
+                            that box) is presented.</p>
+                    </div>
+                    <div id="css-rules-properties-values">
+                        <h4>Rules, Properties and Values</h4>
+                        <p>CSS works by associate rules with HTML elements. You use the selector from HTML, such as the
+                            element tag, class or id. The declaration is put inside curly braces as a key-value pair.
+                        </p>
+                        <p>Whilst you can use styles internally in an HTML document, using an external CSS file is
+                            better
+                            practice.</p>
+                        <p>Some selectors include:</p>
+                        <table class="table table__selectors">
+                            <thead>
+                                <tr>
+                                    <th>SELECTOR</th>
+                                    <th>MEANING</th>
+                                    <th>EXAMPLE</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="selector selector--fusca">UNIVERSAL SELECTOR</td>
+                                    <td>Applies to all elements in the document</td>
+                                    <td><code>* {}</code><br>Targets all elements on the page.</td>
+                                </tr>
+                                <tr>
+                                    <td class="selector selector--fusca">TYPE SELECTOR</td>
+                                    <td>Matches element names</td>
+                                    <td><code>h1</code>, <code>h2</code>, <code>h3</code> <code>{}</code><br>Targets the
+                                        <code>h1</code>, <code>h2</code>, <code>h3</code> elements
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="selector selector--fusca">CLASS SELECTOR</td>
+                                    <td>Matches an element whose class attribute has a value that matches the one
+                                        specified
+                                        after the period (or full stop) symbol</td>
+                                    <td><code>.note {}</code><br>Targets any element whose class attribute has a value
+                                        of
+                                        note<br><code>p.note {}</code><br>Targets only <code>p</code> elements whose
+                                        class
+                                        attribute has a value of note</td>
+                                </tr>
+                                <tr>
+                                    <td class="selector selector--fusca">ID SELECTOR</td>
+                                    <td>Matches an element whose id attribute has a value that matches the one specified
+                                        after the poiund or hash symbol</td>
+                                    <td><code>#introduction {}</code><br>Targets the eelement whose id attribute has a
+                                        value
+                                        of introduction</td>
+                                </tr>
+                                <tr>
+                                    <td class="selector selector--fusca">CHILD SELECTOR</td>
+                                    <td>Matches an element that is a direct child of another</td>
+                                    <td><code>li>a {}</code><br>Targets any <code>a</code> elements that are children of
+                                        an
+                                        <code>li</code> element (but not other <code>a</code> elements in the page)
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="selector selector--fusca">DESCENDANT SELECTOR</td>
+                                    <td>Matches an element that is a descendant of another specified element (not just a
+                                        direct child of that element)</td>
+                                    <td><code>p a {}</code><br>Targets any <code>a</code> elements that sit inside the
+                                        <code>p</code> element, even if there are other elements nested between them
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="selector selector--fusca">ADJACENT SIBLING SELECTOR</td>
+                                    <td>Matches an elementthat is the next sibling of another</td>
+                                    <td><code>h1+p {}</code><br>Targets the first <code>p</code>element after any
+                                        <code>h1</code> element (but not other <code>p</code>elements
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="selector selector--fusca">GENERAL SIBLING SELECTOR</td>
+                                    <td>Matches an element that is a sibling of another, although it does not have to be
+                                        the
+                                        directly precending element</td>
+                                    <td><code>h1-p {}</code><br>If you had two <code>p</code>elements that are siblings
+                                        of
+                                        an <code>h1</code> element, this rule would apply to both</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p>CSS rules cascade based on three factors. 1. If two or more rules that apply the same
+                            element,
+                            the last one will tak precendent; 2. If one selector is more specific that the others, the
+                            more
+                            specific rule will take precendence over more general ones.; 3. using the
+                            <code>!important</code> to consider it more important that other rules.
+                        </p>
+                        <p>Font-family or color properties on the <code>body</code> element are inherited properties and
+                            apply to most elements on the document. <code>background-color</code> or <code>border</code>
+                            properties are not inherited by child elements. You can force inheritence by using the
+                            <code>inherit rule.</code>
+                        </p>
                     </div>
                 </div>
-                <div id="structure">
-                    <h4>Structure</h4>
-                    <p>As stated before, elements make up the building blocks of an HTML document. The head, title and
-                        body elements are key to any HTML document.</p>
-                    <div id="structure-body-head-title">
-                        <h5>Head, Title, Body</h5>
-                        <p>The head goes before the body and contains the <code>title</code> element. It includes
-                            metadata - descriptive elements.</p>
-                        <p>The title comes inside the head element. It is what shows up on the browser tab.</p>
-                        <p>The body element contains all of the markup that is displayed in the browser.</p>
-                    </div>
+                <div id="color">
+                    <h3>Color</h3>
+                    <p>Color can really bring your pages to life.</p>
+                    <p>Foreground colors are denoted by the <code>color</code> property. They can be defined using RGB
+                        values, hex codes or color names.</p>
+                    <p>Background color is denoted by the <code>background-color</code>property. They too can be defined
+                        using the same vlues as the <code>color</code> property.</p>
+                    <p>Color is made by mixing red, blue and green color values. We can mix and match using hue,
+                        saturation
+                        and brightness.</p>
+                    <p>We use contrast for accesibility to make text easier to read.</p>
                 </div>
                 <div id="text">
-                    <h4>Text</h4>
-                    <p>These next sections provide extra meaning to the document.</p>
-                    <div id="text-headings">
-                        <h5>Headings</h5>
-                        <p>Headings are elements that denote a title of a <code>section</code> or a <code>div</code>.
-                            There are six levels of headings. The largest and most important is <code>h1</code> all the
-                            way down in size to an <code>h6</code>.</p>
-                        <h1>This is an <code>h1</code> element.</h1>
-                        <h2>This is an <code>h2</code> element.</h2>
-                        <h3>This is an <code>h3</code> element.</h3>
-                        <h4>This is an <code>h4</code> element.</h4>
-                        <h5>This is an <code>h5</code> element.</h5>
-                        <h6>This is an <code>h6</code> element.</h6>
+                    <h3>Text</h3>
+                    <p>Text properties can be split into two groups:</p>
+                    <ul>
+                        <li>Those that directly affet the font and its appearance</li>
+                        <li>Those thta would have the same effect on text no matter what font you were usinfg</li>
+                    </ul>
+                    <div class="text-size-typeface">
+                        <h4>Size and Typeface</h4>
+                        <p><code>font-family</code> specifies the typeface that should be used on the element.</p>
+                        <p><code>font-szie</code> specifies the size of the typeface. The value can be set in
+                            <code>px</code> or <code>%</code> or <code>em</code> or <code>rem</code>.
+                        </p>
+                        <p><code>@font-face</code> allows us to use a font family that is not installed our machine. We
+                            set
+                            the attributres of <code>font-family</code>, <code>src</code>, <code>format</code>.</p>
+                        <p>We can change the weight of the text using the <code>font-weight</code> property using
+                            <code>normal</code>, <code>bold</code>, or a 3-digit numeric value.
+                        </p>
+                        <p>We can set the style using the <code>font-style</code> property with <code>normal</code>,
+                            <code>italic</code>, <code>oblique</code>
+                        </p>
+                        <p><code>text-transform</code> property changes the case of the text using
+                            <code>uppercase</code>,
+                            <code>lowercase</code>. Using <code>capitalize</code> causes the element to capitalize the
+                            first
+                            letter of the word.
+                        </p>
+                        <p>We can underline and strike thru text using the <code>text-decoration</code> property
+                            specifiying
+                            the value with <code>none</code>, <code>underline</code>, <code>overline</code>,
+                            <code>line-through</code>, or <code>blink</code>
+                        </p>
                     </div>
-                    <div id="text-paragraphs">
-                        <h5>Paragraphs</h5>
-                        <p>Paragraph elements are one or more sentences that form a sel-contained unit of discourse.
-                            Each paragraph is on a new line.</p>
-                        <p>This paragraph is surrounded by <code>p</code> tags!</p>
-                    </div>
-                    <div id="text-bold-italics">
-                        <h5>Bold & Italics</h5>
-                        <p><b>This is bold.</b></p>
-                        <p><i>This is italics.</i></p>
-                    </div>
-                    <div id="text-subscript-superscript">
-                        <h5>Superscript & Subscript</h5>
-                        <p>This is a <sup>Superscript</sup>.</p>
-                        <p>This is a <sub>Subscript</sub>.</p>
-                    </div>
-                    <div id="text-whitespace">
-                        <h5>Whitespace</h5>
-                        <p>Whitescpace is a non-issue in HTML. This is known as <b>white space collapsing</b>.</p>
-                    </div>
-                    <div id="text-line-break-hr">
-                        <h5>Line Breaks & Horizonatal Rules</h5>
-                        <p>The <code>br</code> tag is put at the end of the element and breaks the element; it adds an
-                            line break to the document.</p><br>
-                        <p>The previous <code>p</code> element has a <code>br</code> tag at the end of the element.
-                            Notice the extrra spacing between the paragraphs.</p>
-                        <p>The <code>hr</code> element is called a horizontal rule. It adds a line between the elements.
-                            You can see the line after this paragraph.</p>
-                        <hr>
-                    </div>
-                    <div id="text-strong-emphasis">
-                        <h5>Strong & Emphasis</h5>
-                        <p>This is paragraph has a <strong>strong element</strong>.</p>
-                        <p>This paragraph has an <code>em</code> tag. It adds <em>italics</em> when used.</p>
-                    </div>
-                    <div id="text-quotation">
-                        <h5>Quotations</h5>
-                        <p>Two elements commonly used for marking up quotations.</p>
-                        <p>The
-                        <blockquote>"blockquote"</blockquote> is the first. This adds a break and indentation the the
-                        element.</p>
-                        <p>The <q>q</q> element is used for shorter quotes that sit within the paragraphs.</p>
-                    </div>
-                    <div id="text-abbr-accronyms">
-                        <h5>Abbreviation & Accronyms</h5>
-                        <p><abbr title="Doctor">Doc.</abbr> is an abbreviation for Doctor.</p>
+                    <div id="text-spacing">
+                        <h4>Spacing Between Lines, Words and Letter</h4>
+                        <p><code>text-align</code> property controls the alignment of text using <code>left</code>,
+                            <code>right</code>, <code>center</code>, <code>justify</code>.
+                        </p>
+                        <p><code>vertical-align</code> is used with inline elements or tables, not block elements.</p>
+                        <p><code>text-indent</code> allows you to indent the first line of text within an element.</p>
+                        <p><code>text-shadow</code> adds a drop shadow on the text.</p>
+                        <p><code>:first-letter</code> and <code>:first-line</code> are pseudo-elements that allow you to
+                            style the first letter or first line in an element.</p>
+                        <p>We can style links with <code>:link</code> and <code>:visited</code> psueudo-classes. The
+                            <code>:link</code> allows you to set styles for links that have not yet been visted.
+                            <code>:visited</code>allows you to set styles for links that have been visited.
+                        </p>
+                        <p>In response to user interaction we can use <code>:hover</code>, <code>:active</code>,
+                            <code>:focus</code> to change appearance of an element when a user hovers, makes the element
+                            active, or foucses on the element.
+                        </p>
                         <p>
-                            <accronym title="National Areonautics and Space Administration">NASA</accronym> is an
-                            accronym.
+                            We can set styles based on attributes of an element
                         </p>
-                        <p>Abbreviations and accronyms adds tool tips to these elements.</p>
-                    </div>
-                    <div id="text-citation-def">
-                        <h5>Citations & Definitions</h5>
-                        <p>Citations are used when referencing a piece of work. using the <cite>cite</cite> element.
-                            This should not be used for a person's name.</p>
-                        <p>Definitions are used to explain new <dfn>terminology</dfn>. Some browsers put the
-                            <code>dfn</code> element in italics.
-                        </p>
-                    </div>
-                    <div id="text-author-details">
-                        <h5>Author Details</h5>
-                        <p>The <code>address</code> element is used to contain contact details.</p>
-                        <address>
-                            123 Smith Street
-                            City, Region
-                            Postcode
-                        </address>
-                    </div>
-                    <div id="text-content-changes">
-                        <h5>Changes to Content</h5>
-                        <p>This is a <del>deleted element</del>.</p>
-                        <p>This is a <ins>inserted element</ins>.</p>
-                        <p>An <s>S element</s> denotes something that is no longer accurate or relevant. Used in
-                            pricing.</p>
-                    </div>
-                </div>
-                <div id="lists">
-                    <h4>Lists</h4>
-                    <p>There are three types of lists: ordered, unordered and definitions.</p>
-                    <p>Lists can be nested. An example is the nav for this page. It has three leves.</p>
-                    <div id="lists-numbered">
-                        <h5>Numbered Lists</h5>
-                        <ol>
-                            <li>First item</li>
-                            <li>Second item</li>
-                            <li>Third item</li>
-                        </ol>
-                    </div>
-                    <div id="lists-bullet">
-                        <h5>Bullet Lists</h5>
-                        <ul>
-                            <li>There</li>
-                            <li>are</li>
-                            <li>no</li>
-                            <li>numbers</li>
-                            <li>in this list</li>
-                        </ul>
-                    </div>
-                    <div id="lists-definition">
-                        <h5>Definition Lists</h5>
-                        <dl>
-                            <dt>Definition List</dt>
-                            <dd>This is a title for this definition list.</dd>
-                        </dl>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>SELECTOR</th>
+                                    <th>MEANING</th>
+                                    <th>EXAMPLE</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>EXISTENCE</td>
+                                    <td><code>[]</code><br>Matches a specific attribute<br>(whatever its value)</td>
+                                    <td><code>p[class]</code><br>Targets any <code>p</code> elementwith an attribute
+                                        called class</td>
+                                </tr>
+                                <tr>
+                                    <td>EQUALITY</td>
+                                    <td><code>[-]</code><br>Matches a specific attribute with a specific value.</td>
+                                    <td><code>p[class="dog"]</code><br>Targets any <code>p</code> element with an
+                                        attribute called class whose value is dog</td>
+                                </tr>
+                                <tr>
+                                    <td>SPACE</td>
+                                    <td><code>[~=]</code><br>Matches a spcific attribute whose value appears in a
+                                        space-separted list of words.</td>
+                                    <td><code>p[class~="dog"]</code><br>Targets any <code>p</code> element with an
+                                        attribute called class whose value is a list of space-separated words, one of
+                                        which is dog</td>
+                                </tr>
+                                <tr>
+                                    <td>PREFIX</td>
+                                    <td><code>[^=]</code><br>Matches a specific attribute whose value begins with a
+                                        specific string</td>
+                                    <td><code>p[attr^"d"]</code><br>Targets any <code>p</code> elementwith an attribute
+                                        whose value begins witht he letter "d"</td>
+                                </tr>
+                                <tr>
+                                    <td>SUBSTRING</td>
+                                    <td><code>[*=]</code><br>Matches a specific attribute whose value containsa specific
+                                        substring.</td>
+                                    <td><code>p[attr*"do"]</code><br>Targets any <code>p</code>element with an attribute
+                                        whose value contains the letters "do"</td>
+                                </tr>
+                                <tr>
+                                    <td>SUFFIX</td>
+                                    <td><code>[$=]</code><br>Matches a specific attribute whose value ends with a
+                                        specific string</td>
+                                    <td><code>p[attr$"g"]</code><br>Targets any <code>p</code> element with an attribute
+                                        whose value ends with the letter "g".</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
-                <div id="links">
-                    <h4>Links</h4>
-                    <p>Links are the defining feature of the web because they allow you to move from one web page to
-                        another. There are internal and external links, as well as links to open an email client.</p>
-                    <p>Links are created using the <code>a</code> tag. The opening tag requires an <code>href</code>
-                        attribute.</p>
-                    <div id="links-pages">
-                        <h5>Links Between Pages</h5>
-                        <p>The <code>nav</code> on this page uses links on the same page.</p>
-                    </div>
-                    <div id="links-other-sites">
-                        <h5>Linking to Ohter Sites</h5>
-                        <p>The text between the tags is what you want to display as the <a href="https://google.co.uk"
-                                target="_blank">link</a>.</p>
-                        <p>The link in the previous paragraph is an example of an external link that opens in a new
-                            browser tab.</p>
-                    </div>
-                    <div id="links-email">
-                        <h5>Email Links</h5>
-                        <a href="mailto:example@example.com">An Email link</a>
-                    </div>
-                </div>
-                <div id="images">
-                    <h4>Images</h4>
-                    <p>Images improve quality of a website. They should be relevant, convey information, the right mood,
-                        be instantly recognizable and fit the color palette.</p>
-                    <p>HTML 5 uses <code>figure</code> and <code>figcaption</code> elements to add captions and describe
-                        the image in the browser.</p>
-                    <div id="images-add">
-                        <h5>How to Add Images to a Pages</h5>
-                        <img src="https://place-hold.it/250x250/orange/black/grey.png&fontsize=16"
-                            alt="A placeholder image" title="Placeholder" height="250" width="250">
-                        <p>The above image has <code>src</code>, <code>alt</code>, <code>title</code>,
-                            <code>height</code>, <code>width</code> attributes.
-                        </p>
-                        <p>Images can be placed anywhere in the document; before, middle and after text.</p>
-                    </div>
-                    <div id="images-format">
-                        <h5>Choosing the Right Format</h5>
-                        <p>Images should be saved in the right format at the right size in pixels. These can be
-                            accomplished in Photoshop.</p>
-                        <p>Different formats are JPEG, PNG and SVG. JPEGs should be used whenever you have many
-                            different colors. GIFs should be used with fiew colors or large areas of the same color.
-                            Vecotors are scalable images that are next gen.</p>
-                    </div>
-                    <div id="images-optimize">
-                        <h5>Optimizing for the Web</h5>
-                        <p>Images should be saved at size that you will use on the website. If not they may appear low
-                            res or blurry.</p>
-                    </div>
-                </div>
-                <div id="tables">
-                    <h4>Tables</h4>
-                    <table style="border: 1px solid black;">
-                        <tr>
-                            <th scope="col"></th>
-                            <th scope="col" style="border-bottom: 1px solid black;">Heading 1</th>
-                            <th scope="col" style="border-bottom: 1px solid black;">Heading 2</th>
-                        </tr>
-                        <tr>
-                            <th scope="row" style="border-right: 1px solid black;">Row heading</th>
-                            <td style="border-right: 1px solid black;">Data for heading 1</td>
-                            <td>Data for heading 2</td>
-                        </tr>
-                    </table>
-                    <div id="tables-intro">
-                        <h5>Intro to Tables</h5>
-                        <p>Tables are good for structuring data in an organized way.</p>
-                    </div>
-                    <div id="table-create">
-                        <h5>Creating a Table</h5>
-                        <p>Table rows and columns are put in between the <code>table</code> tags.</p>
-                    </div>
-                    <div id="table-data">
-                        <h5>Table Data</h5>
-                        <p>Table data uses <code>td</code> tags. Table data are the cells in a table. They are placed
-                            inside the table rows.</p>
-                    </div>
-                    <div id="table-headings">
-                        <h5>Table Headings</h5>
-                        <p>Table headings use the <code>th</code> tag. They are place in a row by themselves.</p>
-                    </div>
-                    <div id="table-borders">
-                        <h5>Table Borders</h5>
-                        <p>Tables can have borders by adding inline styling or in the styles sheet. <b>Do not</b> use
-                            the <code>border</code>attribute as it is deprecated.</p>
-                    </div>
-                    <div id="table-columns">
-                        <h5>Spanning Columns</h5>
-                        <p>To allow for a <code>td</code> element to span multiple columns use the <code>colspan</code>
-                            attribute.</p>
-                    </div>
-                    <div id="table-rows">
-                        <h5>Spanning Rows</h5>
-                        <p>To allow for a <code>td</code> element to span multiple rows use the <code>rowspan</code>
-                            attribute.</p>
-                        <p>Table rows use <code>tr</code> tags.</p>
-                    </div>
-                    <div id="table-body">
-                        <h5>Table Body</h5>
-                        <p>The table body or <code>tbody</code> element encompasses the table rows and table data
-                            elements.</p>
-                    </div>
-                    <div id="table-head">
-                        <h5>Table Head</h5>
-                        <p>The table head or <code>thead</code> element is the top most row in the table element.</p>
-                    </div>
-                    <div id="table-footer">
-                        <h5>Table Footer</h5>
-                        <p>The <code>tfoot</code> element is the bottom of the table.</p>
-                    </div>
-                    <div id="table-styles">
-                        <h5>Styling with CSS</h5>
-                        <p>Tables, by default, are very bland. They have no borders, the font color is black, and the
-                            typeface is the same type
-                            used for other HTML elements.</p>
-                        <p>Just like an <code>HTML</code> document, we can add styles via the tag, class or id.</p>
-                    </div>
-                </div>
-                <div id="semantic">
-                    <h4>Semantic</h4>
-                    <div id="semantic-intro">
-                        <h5>Introduction to Semantic HTML</h5>
-                        <p>Non-semantic HTML is just using <code>div</code>s all throughout the document, which have not
-                            meaning to a browser and the accessability they support.</p>
-                        <p>By using semantic elements, we give meaning to the document. Doing so helps with
-                            accessability and SEO.</p>
-                    </div>
-                    <div id="semantic-header-nav">
-                        <h5>Header and Nav</h5>
-                        <p>The <code>header</code> contains your <code>h1</code> to <code>h6</code>, and the
-                            <code>nav</code> elements.
-                        </p>
-                        <p>The <code>nav</code> element is your menu for the document, Just look at the top of this
-                            page!</p>
-                    </div>
-                    <div id="semantic-main-footer">
-                        <h5>Main and Footer</h5>
-                        <p>The <code>main</code> tells the browser this is the focus of our content.</p>
-                        <p>The <code>footer</code> tells the browser this is the end of our document. The footer
-                            contains information such as:
-                        <ul>
-                            <li>Contact information</li>
-                            <li>Copyright information</li>
-                            <li>Terms of use</li>
-                            <li>Site Map</li>
-                            <li>Reference to top of page links</li>
-                        </ul>
-                        </p>
-                    </div>
-                    <div id="semantic-article-section">
-                        <h5>Article and Section</h5>
-                        <p><code>section</code> defines elements in a document, such as chapters, headings, or any other
-                            area of the document with the same theme.</p>
-                        <p>The <code>article</code> element holds content that makes sense on its own. It can hold
-                            content such as articles, blogs, comments, magazines, etc.</p>
-                    </div>
-                    <div id="semantic-aside">
-                        <h5>The Aside Element</h5>
-                        <p>The <code>aside</code> element is used to mark additional information that can enhance
-                            another element but isn't required in order to understand the main content.</p>
-                        <p>Some common uses of the element are:</p>
-                        <ul>
-                            <li>Bibliographies</li>
-                            <li>Endnotes</li>
-                            <li>Comments</li>
-                            <li>Pull quotes</li>
-                            <li>Editorial sidebars</li>
-                            <li>Additional information</li>
-                        </ul>
-                    </div>
-                    <div id="semantic-fig-figcaption">
-                        <h5>Figure and Figcaption</h5>
-                        <p>The <code>figure</code> and <code>figcaption</code> are used for an image or illustration.
-                        </p>
-                    </div>
-                    <div id="semantic-audio-attributes">
-                        <h5>Audio and Attributes</h5>
-                        <p>The <code>audio</code> element is used to embed audio content into a doucment. Like
-                            <code>video</code>, <code>audio</code> uses <code>src</code> to link the audio source.
-                        </p>
-                        <p>Attributes allow us to do many different things to our audio file. There are many attributes
-                            for <code>audio</code> but today we’re going to be focusing on <code>controls</code> and
-                            <code>src</code>.
-                        </p>
-                        <ul>
-                            <li><code>controls</code>: automatically displays the audio controls into the browser such
-                                as play and mute.</li>
-                            <li><code>src</code>: specifies the URL of the audio file.</li>
-                        </ul>
-                    </div>
-                    <div id="semantic-video-embed">
-                        <h5>Video and Embed</h5>
-                        <p>By using a <code>video</code> element, we can add videos to our website. The element makes it
-                            clear that the page is attempting to display a video to the user.</p>
-                        <p>Some attributes can alter a video playback include:
-                        <ul>
-                            <li><code>controls</code>: When added in, a play/pause button will be added onto the video
-                                along with volume control and a fullscreen option.</li>
-                            <li><code>autoplay</code>: The attribute which results in a video automatically playing as
-                                soon as the page is loaded.</li>
-                            <li><code>loop</code>: This attribute results in the video continuously playing on repeat.
-                            </li>
-                        </ul>
-                        </p>
-                        <p>The <code>embed</code> element which can embed any media content including videos, audio
-                            files, and gifs from an external source. This means that websites that have an embed button
-                            have some form of media content that can be added to other websites.</p>
-                    </div>
-                </div>
-        </section>
-        <section id="css">
-            <h2>CSS</h2>
-            <div id="css-intro">
-                <h3>Intro to CSS</h3>
-                <p>CSS allows us to create rules to specify how the content of an element should appear on the page.
-                    Different browsers interpret some CSS rules differently.</p>
-                <div id="css-how">
-                    <h4>How CSS Works</h4>
-                    <p>The key to understanding how CSS works is to imagine that there is an ivisible box around every
-                        HTML element.</p>
-                    <p>Block level elements look like they start on a new line. Examples are <code>h1</code> to
-                        <code>h6</code>, <code>p</code> and <code>div</code> elements.
-                    </p>
-                    <p>Inline elements flow within the text and do not start on a new line. Examples include
-                        <code>b</code>, <code>i</code>, <code>img</code>, <code>em</code>, <code>span</code>.
-                    </p>
-                    <p>CSS allows you to create rules that control the way that each individual box(and the contents of
-                        that box) is presented.</p>
-                </div>
-                <div id="css-rules-properties-values">
-                    <h4>Rules, Properties and Values</h4>
-                    <p>CSS works by associate rules with HTML elements. You use the selector from HTML, such as the
-                        element tag, class or id. The declaration is put inside curly braces as a key-value pair. </p>
-                    <p>Whilst you can use styles internally in an HTML document, using an external CSS file is better
-                        practice.</p>
-                    <p>Some selectors include:</p>
-                    <table class="table table__selectors">
-                        <thead>
-                            <tr>
-                                <th>SELECTOR</th>
-                                <th>MEANING</th>
-                                <th>EXAMPLE</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td class="selector selector--fusca">UNIVERSAL SELECTOR</td>
-                                <td>Applies to all elements in the document</td>
-                                <td><code>* {}</code><br>Targets all elements on the page.</td>
-                            </tr>
-                            <tr>
-                                <td class="selector selector--fusca">TYPE SELECTOR</td>
-                                <td>Matches element names</td>
-                                <td><code>h1</code>, <code>h2</code>, <code>h3</code> <code>{}</code><br>Targets the
-                                    <code>h1</code>, <code>h2</code>, <code>h3</code> elements
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="selector selector--fusca">CLASS SELECTOR</td>
-                                <td>Matches an element whose class attribute has a value that matches the one specified
-                                    after the period (or full stop) symbol</td>
-                                <td><code>.note {}</code><br>Targets any element whose class attribute has a value of
-                                    note<br><code>p.note {}</code><br>Targets only <code>p</code> elements whose class
-                                    attribute has a value of note</td>
-                            </tr>
-                            <tr>
-                                <td class="selector selector--fusca">ID SELECTOR</td>
-                                <td>Matches an element whose id attribute has a value that matches the one specified
-                                    after the poiund or hash symbol</td>
-                                <td><code>#introduction {}</code><br>Targets the eelement whose id attribute has a value
-                                    of introduction</td>
-                            </tr>
-                            <tr>
-                                <td class="selector selector--fusca">CHILD SELECTOR</td>
-                                <td>Matches an element that is a direct child of another</td>
-                                <td><code>li>a {}</code><br>Targets any <code>a</code> elements that are children of an
-                                    <code>li</code> element (but not other <code>a</code> elements in the page)
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="selector selector--fusca">DESCENDANT SELECTOR</td>
-                                <td>Matches an element that is a descendant of another specified element (not just a
-                                    direct child of that element)</td>
-                                <td><code>p a {}</code><br>Targets any <code>a</code> elements that sit inside the
-                                    <code>p</code> element, even if there are other elements nested between them
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="selector selector--fusca">ADJACENT SIBLING SELECTOR</td>
-                                <td>Matches an elementthat is the next sibling of another</td>
-                                <td><code>h1+p {}</code><br>Targets the first <code>p</code>element after any
-                                    <code>h1</code> element (but not other <code>p</code>elements
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="selector selector--fusca">GENERAL SIBLING SELECTOR</td>
-                                <td>Matches an element that is a sibling of another, although it does not have to be the
-                                    directly precending element</td>
-                                <td><code>h1-p {}</code><br>If you had two <code>p</code>elements that are siblings of
-                                    an <code>h1</code> element, this rule would apply to both</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <p>CSS rules cascade based on three factors. 1. If two or more rules that apply the same element,
-                        the last one will tak precendent; 2. If one selector is more specific that the others, the more
-                        specific rule will take precendence over more general ones.; 3. using the
-                        <code>!important</code> to consider it more important that other rules.
-                    </p>
-                    <p>Font-family or color properties on the <code>body</code> element are inherited properties and
-                        apply to most elements on the document. <code>background-color</code> or <code>border</code>
-                        properties are not inherited by child elements. You can force inheritence by using the
-                        <code>inherit rule.</code>
-                    </p>
-                </div>
-            </div>
-            <div id="color">
-                <h3>Color</h3>
-                <p>Color can really bring your pages to life.</p>
-                <p>Foreground colors are denoted by the <code>color</code> property. They can be defined using RGB
-                    values, hex codes or color names.</p>
-                <p>Background color is denoted by the <code>background-color</code>property. They too can be defined
-                    using the same vlues as the <code>color</code> property.</p>
-                <p>Color is made by mixing red, blue and green color values. We can mix and match using hue, saturation
-                    and brightness.</p>
-                <p>We use contrast for accesibility to make text easier to read.</p>
-            </div>
-            <div id="text">
-                <h3>Text</h3>
-                <p>Text properties can be split into two groups:</p>
-                <ul>
-                    <li>Those that directly affet the font and its appearance</li>
-                    <li>Those thta would have the same effect on text no matter what font you were usinfg</li>
-                </ul>
-                <div class="text-size-typeface">
-                    <h4>Size and Typeface</h4>
-                    <p><code>font-family</code> specifies the typeface that should be used on the element.</p>
-                    <p><code>font-szie</code> specifies the size of the typeface. The value can be set in
-                        <code>px</code> or <code>%</code> or <code>em</code> or <code>rem</code>.
-                    </p>
-                    <p><code>@font-face</code> allows us to use a font family that is not installed our machine. We set
-                        the attributres of <code>font-family</code>, <code>src</code>, <code>format</code>.</p>
-                    <p>We can change the weight of the text using the <code>font-weight</code> property using
-                        <code>normal</code>, <code>bold</code>, or a 3-digit numeric value.
-                    </p>
-                    <p>We can set the style using the <code>font-style</code> property with <code>normal</code>,
-                        <code>italic</code>, <code>oblique</code>
-                    </p>
-                    <p><code>text-transform</code> property changes the case of the text using <code>uppercase</code>,
-                        <code>lowercase</code>. Using <code>capitalize</code> causes the element to capitalize the first
-                        letter of the word.
-                    </p>
-                    <p>We can underline and strike thru text using the <code>text-decoration</code> property specifiying
-                        the value with <code>none</code>, <code>underline</code>, <code>overline</code>,
-                        <code>line-through</code>, or <code>blink</code>
-                    </p>
-                </div>
-                <div id="text-spacing">
-                    <h4>Spacing Between Lines, Words and Letter</h4>
-                    <p><code>text-align</code> property controls the alignment of text using <code>left</code>,
-                        <code>right</code>, <code>center</code>, <code>justify</code>.
-                    </p>
-                    <p><code>vertical-align</code> is used with inline elements or tables, not block elements.</p>
-                    <p><code>text-indent</code> allows you to indent the first line of text within an element.</p>
-                    <p><code>text-shadow</code> adds a drop shadow on the text.</p>
-                    <p><code>:first-letter</code> and <code>:first-line</code> are pseudo-elements that allow you to
-                        style the first letter or first line in an element.</p>
-                    <p>We can style links with <code>:link</code> and <code>:visited</code> psueudo-classes. The
-                        <code>:link</code> allows you to set styles for links that have not yet been visted.
-                        <code>:visited</code>allows you to set styles for links that have been visited.
-                    </p>
-                    <p>In response to user interaction we can use <code>:hover</code>, <code>:active</code>,
-                        <code>:focus</code> to change appearance of an element when a user hovers, makes the element
-                        active, or foucses on the element.
-                    </p>
-                    <p>
-                        We can set styles based on attributes of an element
-                    </p>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>SELECTOR</th>
-                                <th>MEANING</th>
-                                <th>EXAMPLE</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>EXISTENCE</td>
-                                <td><code>[]</code><br>Matches a specific attribute<br>(whatever its value)</td>
-                                <td><code>p[class]</code><br>Targets any <code>p</code> elementwith an attribute called class</td>
-                            </tr>
-                            <tr>
-                                <td>EQUALITY</td>
-                                <td><code>[-]</code><br>Matches a specific attribute with a specific value.</td>
-                                <td><code>p[class="dog"]</code><br>Targets any <code>p</code> element with an attribute called class whose value is dog</td>
-                            </tr>
-                            <tr>
-                                <td>SPACE</td>
-                                <td><code>[~=]</code><br>Matches a spcific attribute whose value appears in a space-separted list of words.</td>
-                                <td><code>p[class~="dog"]</code><br>Targets any <code>p</code> element with an attribute called class whose value is a list of space-separated words, one of which is dog</td>
-                            </tr>
-                            <tr>
-                                <td>PREFIX</td>
-                                <td><code>[^=]</code><br>Matches a specific attribute whose value begins with a specific string</td>
-                                <td><code>p[attr^"d"]</code><br>Targets any <code>p</code> elementwith an attribute whose value begins witht he letter "d"</td>
-                            </tr>
-                            <tr>
-                                <td>SUBSTRING</td>
-                                <td><code>[*=]</code><br>Matches a specific attribute whose value containsa specific substring.</td>
-                                <td><code>p[attr*"do"]</code><br>Targets any <code>p</code>element with an attribute whose value contains the letters "do"</td>
-                            </tr>
-                            <tr>
-                                <td>SUFFIX</td>
-                                <td><code>[$=]</code><br>Matches a specific attribute whose value ends with a specific string</td>
-                                <td><code>p[attr$"g"]</code><br>Targets any <code>p</code> element with an attribute whose value ends with the letter "g".</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </section>
+            </section>
         </main>
         <!-- TODO: Add footer with copyright and top scroll button  -->
     </body>

@@ -1,4 +1,3 @@
-
 /* CSS HEX */
 /* --charcoal: #264653ff;
 --persian-green: #2a9d8fff;
@@ -15,5 +14,49 @@
 
 /* Global */
 * {
-    font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 3.5em;
+}
+h2 {
+  font-size: 2.75em;
+}
+
+h3 {
+  font-size: 2.5em;
+}
+
+h4 {
+  font-size: 2em;
+}
+
+h5 {
+  font-size: 1.75em;
+}
+
+h6 {
+  font-size: 1.5em;
+}
+
+p {
+  font-size: 1em;
+}
+
+/* Header */
+.header {
+  position: fixed;
+  background-color: #f4a261ff;
+}
+
+main {
+  background-color: #264653ff;
+}
+.banner {
+  background-color: #2a9d8fff;
 }
