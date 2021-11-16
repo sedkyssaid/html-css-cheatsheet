@@ -53,20 +53,50 @@ p {
   font-size: 1em;
 }
 
+table {
+  max-width: 1024px;
+  margin: 20px auto;
+  background-color: #2a9d8fff;
+}
+tr {
+  row-gap: 10px;
+}
+
+td {
+  text-align: left;
+  column-width: 340px;
+}
+
 /* Header */
 .header {
   position: fixed;
   left: 0;
   overflow-y: scroll;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   height: 100%;
   width: 20vw;
 }
+
 .nav {
-  background-color: #f4a261ff;
   position: relative;
   width: 100%;
-  padding-left: 10px;
+}
+
+.nav__primary li,
+.nav__secondary li,
+.nav__tertiary li {
+  margin-bottom: 5px;
+}
+
+.nav__primary {
+  background-color: hsla(197, 37%, 24%, 1);
+}
+.nav__secondary {
+  background-color: hsla(27, 87%, 68%, 1);
+}
+.nav__tertiary {
+  background-color: hsla(12, 76%, 61%, 1);
+  margin-top: 5px;
 }
 
 /* Main */
