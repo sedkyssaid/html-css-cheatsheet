@@ -56,11 +56,17 @@ p {
 /* Header */
 .header {
   position: fixed;
-  background-color: #f4a261ff;
+  left: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 100%;
   width: 20vw;
 }
 .nav {
-  padding: 20px;
+  background-color: #f4a261ff;
+  position: relative;
+  width: 100%;
+  padding-left: 10px;
 }
 
 /* Main */
@@ -70,7 +76,6 @@ main {
   width: 80vw;
   position: absolute;
   right: 0;
-  margin-left: 10px;
 }
 .banner {
   background-color: #2a9d8fff;
