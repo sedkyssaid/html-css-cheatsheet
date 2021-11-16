@@ -44,6 +44,11 @@ h6 {
   font-size: 1.5em;
 }
 
+ul,
+ol {
+  padding: 20px;
+}
+
 p {
   font-size: 1em;
 }
@@ -52,11 +57,33 @@ p {
 .header {
   position: fixed;
   background-color: #f4a261ff;
+  width: 20vw;
 }
+.nav {
+  padding: 20px;
+}
+
+/* Main */
 
 main {
   background-color: #264653ff;
+  width: 80vw;
+  position: absolute;
+  right: 0;
+  margin-left: 10px;
 }
 .banner {
   background-color: #2a9d8fff;
+  text-align: center;
+  padding: 20px;
+}
+
+section#html h2,
+section#css h2 {
+  color: #e76f51ff;
+}
+
+/* Text */
+#text #text-headings h2 {
+  color: white;
 }
