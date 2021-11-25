@@ -67,58 +67,14 @@ td {
   column-width: 340px;
 }
 
-/* Header */
-.header {
-  position: fixed;
-  left: 0;
-  overflow-y: scroll;
-  /* overflow-x: hidden; */
-  height: 100%;
-  width: 20vw;
-}
-
-.nav {
-  position: relative;
-  width: 100%;
-}
-
-.nav__primary li,
-.nav__secondary li,
-.nav__tertiary li {
-  margin-bottom: 5px;
-}
-
-.nav__primary {
-  background-color: hsla(197, 37%, 24%, 1);
-}
-.nav__secondary {
-  background-color: hsla(27, 87%, 68%, 1);
-}
-.nav__tertiary {
-  background-color: hsla(12, 76%, 61%, 1);
-  margin-top: 5px;
-}
-
 /* Main */
 
 main {
   background-color: #264653ff;
-  width: 80vw;
-  position: absolute;
-  right: 0;
-}
-.banner {
-  background-color: #2a9d8fff;
-  text-align: center;
-  padding: 20px;
 }
 
-section#html h2,
-section#css h2 {
-  color: #e76f51ff;
-}
-
-/* Text */
-#text #text-headings h2 {
-  color: white;
+main h1 {
+  position: relative;
+  display: flex;
+  margin: auto;
 }
