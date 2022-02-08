@@ -16,6 +16,7 @@
 * {
   font-family: "Montserrat", sans-serif;
   color: #ffffff;
+  background-color: #264653ff;
   font-size: 16px;
   margin: 0;
   padding: 0;
@@ -69,9 +70,6 @@ td {
 
 /* Main */
 
-main {
-  background-color: #264653ff;
-}
 
 main h1 {
   position: relative;
