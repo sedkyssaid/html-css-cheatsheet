@@ -1,29 +1,13 @@
-# README #
+# HTML-CSS Cheatsheet #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+A static website that uses tables.
 
-### What is this repository for? ###
+## What is this repository for? ##
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+* An open ended Codecademy Challenge Project designed to use colors and typography. This is my solution to the assignment.
+* v1.0
+* [HTML-CSS Cheatsheet](https://html-css-cheatsheet.netlify.app/)
 
-### How do I get set up? ###
+### The assigment ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+In this project, you’ll be building your own reference cheat sheet to help you build more websites in the future! Although there are great places to learn HTML & CSS like Codecademy, the best reference for yourself is often your own notes and projects.
